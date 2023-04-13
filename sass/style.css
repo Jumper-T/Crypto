@@ -1,0 +1,2040 @@
+/* line 1, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/normalizes.scss */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "OldStandarts";
+  src: url("../fonts/OldStandardTT-Regular.ttf");
+  font-weight: normal;
+  font-style: regular;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora-Mediums";
+  src: url("../fonts/Lora-Medium.ttf");
+  font-weight: medium;
+  font-style: regular;
+  font-display: swap;
+}
+
+/* line 17, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+html {
+  background: black;
+}
+
+/* line 19, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 23, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.main-section {
+  min-height: 800px;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 27, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.logo {
+  width: 150px;
+  margin-top: 10px;
+}
+
+/* line 30, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* line 35, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.nav-menu__list-item {
+  color: grey;
+  padding-left: 20px;
+}
+
+/* line 38, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.nav-bar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+/* line 43, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+a {
+  text-decoration: none;
+  color: azure;
+  font-family: OldStandarts;
+}
+
+/* line 47, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.right-wrapper__img {
+  width: 500px;
+}
+
+/* line 49, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.main-section__content-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* line 53, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.left-wrapper__title {
+  color: azure;
+  font-size: 80px;
+  margin-top: 60px;
+  font-family: Lora-Mediums;
+}
+
+/* line 58, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.main-section__left-wrapper {
+  position: relative;
+}
+
+/* line 60, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.icons-img {
+  width: 60px;
+  padding-left: 40px;
+}
+
+/* line 63, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.icons-img2 {
+  width: 53px;
+  padding-left: 40px;
+}
+
+/* line 66, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.left-wrapper__icons {
+  display: flex;
+}
+
+/* line 68, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.nav-menu__line {
+  height: 2px;
+  background-color: cadetblue;
+  width: 60%;
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+/* line 75, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.main-section__right-wrapper {
+  margin-right: 0px;
+  margin-top: -20px;
+  position: relative;
+}
+
+/* line 79, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.right-wrapper__circle {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  border: 1px solid aqua;
+  animation: 10s linear infinite rotate;
+  right: 10px;
+  top: 40px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 99, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-section {
+  min-height: 1000px;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 104, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.border {
+  width: 800px;
+  height: 700px;
+  border: 2px solid cadetblue;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+/* line 111, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-section__img1 {
+  width: 300px;
+  position: absolute;
+  top: 600px;
+  left: -200px;
+}
+
+/* line 116, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.border-text {
+  color: azure;
+  font-size: 25px;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: OldStandarts;
+  z-index: 10;
+  text-indent: 20px;
+}
+
+/* line 125, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.border-title {
+  padding-top: 50px;
+  font-size: 60px;
+  text-align: center;
+  color: beige;
+  font-family: Lora-Mediums;
+}
+
+/* line 131, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.third-section {
+  min-height: 1000px;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 135, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.third-section__content-container {
+  position: relative;
+}
+
+/* line 137, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.third-section__title {
+  color: beige;
+  font-size: 60px;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  text-align: center;
+  font-family: Lora-Mediums;
+}
+
+/* line 144, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+/* line 149, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.wrapper-content {
+  width: 300px;
+  height: 150px;
+  border: 2px solid cadetblue;
+}
+
+/* line 154, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.content-item {
+  font-size: 25px;
+  color: azure;
+  position: relative;
+  top: 30px;
+  left: 35px;
+  font-family: OldStandarts;
+}
+
+/* line 161, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+span {
+  font-size: 35px;
+  color: beige;
+}
+
+/* line 164, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.wrapper-img {
+  width: 900px;
+  position: absolute;
+  left: 120px;
+}
+
+/* line 168, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.four-section {
+  min-height: 1150px;
+  background: black;
+  position: relative;
+}
+
+/* line 173, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.four-section__title {
+  font-size: 60px;
+  color: beige;
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: Lora-Mediums;
+}
+
+/* line 179, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 183, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-wrapper__first-box {
+  width: 500px;
+  height: 850px;
+  border: 2px solid cadetblue;
+  position: relative;
+}
+
+/* line 188, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-box__title {
+  font-size: 30px;
+  color: beige;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: Lora-Mediums;
+}
+
+/* line 195, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-box__ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-left: 80px;
+}
+
+/* line 200, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.ul-item {
+  font-size: 15px;
+  color: azure;
+  list-style-type: square;
+  margin-bottom: 20px;
+  font-family: OldStandarts;
+}
+
+/* line 206, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-box__title {
+  font-size: 30px;
+  color: beige;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 40px;
+  font-family: Lora-Mediums;
+}
+
+/* line 213, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-wrapper__second-box {
+  border: 2px solid cadetblue;
+  width: 500px;
+  height: 850px;
+  position: relative;
+}
+
+/* line 218, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-box__ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-left: 80px;
+}
+
+/* line 223, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-box__img {
+  width: 200px;
+  position: absolute;
+  top: -150px;
+  right: -10px;
+}
+
+/* line 228, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.four-section__second-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+/* line 233, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.second-box-title {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 380px;
+  font-size: 30px;
+  color: beige;
+  font-family: Lora-Mediums;
+  z-index: 4;
+}
+
+/* line 241, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.ul-item1 {
+  font-size: 15px;
+  color: azure;
+  list-style-type: square;
+  margin-bottom: 20px;
+  font-family: OldStandarts;
+}
+
+/* line 248, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box2-title {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 140px;
+  font-size: 30px;
+  color: beige;
+  font-family: Lora-Mediums;
+}
+
+/* line 255, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box2-ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding-left: 80px;
+}
+
+/* line 260, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.four-section__third-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 25px;
+  margin-top: -200px;
+}
+
+/* line 267, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box3-title {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 470px;
+  font-size: 30px;
+  color: beige;
+  font-family: Lora-Mediums;
+}
+
+/* line 274, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box2-text {
+  font-size: 15px;
+  color: azure;
+  text-decoration: squre;
+  margin-bottom: 20px;
+  padding-left: 60px;
+  font-family: OldStandarts;
+}
+
+/* line 282, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box3-title-span {
+  color: azure;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: OldStandarts;
+}
+
+/* line 287, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-box__img {
+  width: 400px;
+  position: absolute;
+  left: 320px;
+  top: 190px;
+}
+
+/* line 293, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.first-box__img2 {
+  width: 400px;
+  position: absolute;
+  top: 700px;
+  left: 30px;
+}
+
+/* line 299, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs {
+  min-height: 1000px;
+  background: black;
+}
+
+/* line 302, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs-title {
+  font-size: 60px;
+  color: beige;
+  text-align: center;
+  margin-bottom: 80px;
+  font-family: Lora-Mediums;
+}
+
+/* line 308, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 312, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.scroll {
+  width: 400px;
+  height: 600px;
+}
+
+/* line 315, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.scroll-title {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 80px;
+  left: 110px;
+  font-family: Lora-Mediums;
+}
+
+/* line 322, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs__right {
+  position: relative;
+}
+
+/* line 324, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.scroll-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 180px;
+  left: 80px;
+}
+
+/* line 330, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.scroll-list__item {
+  color: black;
+  font-size: 15px;
+  list-style-type: square;
+  margin-bottom: 20px;
+  font-family: OldStandarts;
+}
+
+/* line 336, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs__left {
+  position: relative;
+}
+
+/* line 338, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.scroll-title2 {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-family: Lora-Mediums;
+}
+
+/* line 345, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.right-price {
+  font-size: 60px;
+  color: antiquewhite;
+  position: absolute;
+  top: 450px;
+  left: 130px;
+}
+
+/* line 351, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.box4-title {
+  color: beige;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 470px;
+  font-size: 30px;
+  margin-top: 40px;
+  font-family: Lora-Mediums;
+}
+
+/* line 359, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education {
+  min-height: 1800px;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 363, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education-title {
+  font-size: 50px;
+  color: beige;
+  text-align: center;
+  font-family: Lora-Mediums;
+  margin-bottom: 70px;
+  font-family: Lora-Mediums;
+}
+
+/* line 370, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education-plan {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
+
+/* line 376, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education-item {
+  color: black;
+  font-size: 25px;
+  padding-bottom: 15px;
+  list-style-type: square;
+  font-family: OldStandarts;
+}
+
+/* line 382, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.book-title-wrapper {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* line 386, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education-background {
+  width: 900px;
+  height: 950px;
+  position: static;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 392, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.education-line {
+  border: 2px solid cadetblue;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* line 396, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs-buy {
+  font-size: 25px;
+  color: azure;
+  padding-left: 70px;
+  padding-top: 20px;
+  font-family: Lora-Mediums;
+}
+
+/* line 402, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.tarifs-wrapper__icons {
+  display: flex;
+  margin-left: 270px;
+  margin-top: 60px;
+}
+
+/* line 406, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.border2 {
+  width: 800px;
+  height: 850px;
+  border: 2px solid cadetblue;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+/* line 413, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.mona-lisa {
+  position: absolute;
+  width: 300px;
+  right: -195px;
+  top: 480px;
+}
+
+/* line 418, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.about {
+  min-height: 1600px;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 422, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.about-title {
+  font-size: 50px;
+  font-family: Lora-Mediums;
+  text-align: center;
+  color: beige;
+  margin-bottom: 50px;
+}
+
+/* line 428, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.about-content {
+  border: 2px solid cadetblue;
+  width: 900px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/* line 434, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.about__feedback-title {
+  font-size: 50px;
+  font-family: Lora-Mediums;
+  text-align: center;
+  color: beige;
+  margin-bottom: 50px;
+  padding-top: 160px;
+}
+
+/* line 441, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+/* line 446, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-item {
+  border: 2px solid cadetblue;
+  width: 300px;
+  height: 500px;
+}
+
+/* line 450, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-img1 {
+  width: 100px;
+  padding-top: 4px;
+  padding-bottom: 30px;
+}
+
+/* line 454, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-img2 {
+  width: 110px;
+  padding-top: 7px;
+  padding-bottom: 50px;
+}
+
+/* line 458, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-img3 {
+  width: 90px;
+  padding-top: 4px;
+  padding-bottom: 50px;
+}
+
+/* line 462, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-title {
+  font-size: 20px;
+  font-family: OldStandarts;
+  color: beige;
+  padding-right: 70px;
+  padding-top: 50px;
+}
+
+/* line 468, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.feedback-text {
+  font-size: 20px;
+  line-height: 25px;
+  font-family: OldStandarts;
+  color: azure;
+  padding-left: 25px;
+  padding-right: 20px;
+}
+
+/* line 475, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.title-img__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 479, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.hands {
+  position: absolute;
+  top: 550px;
+  width: 100vw;
+  margin-bottom: 7px;
+}
+
+/* line 484, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.about-footer {
+  font-size: 15px;
+  font-family: OldStandarts;
+  color: gray;
+  margin-top: 750px;
+  text-align: center;
+}
+
+/* line 490, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+.promote {
+  color: grey;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1199px) {
+  /* line 496, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 498, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-line {
+    display: none;
+  }
+  /* line 500, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__img {
+    display: none;
+  }
+  /* line 502, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-img {
+    left: 20px;
+  }
+  /* line 504, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-wrapper__icons {
+    margin-left: 170px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 508, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 510, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .logo {
+    width: 100px;
+  }
+  /* line 512, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu__line {
+    width: 75%;
+  }
+  /* line 514, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .left-wrapper__title {
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  /* line 518, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__img {
+    width: 400px;
+    margin-top: 80px;
+  }
+  /* line 521, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__circle {
+    width: 400px;
+    height: 400px;
+    top: 80px;
+  }
+  /* line 525, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-title {
+    font-size: 40px;
+  }
+  /* line 527, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border {
+    width: 600px;
+    height: 900px;
+    margin-top: 70px;
+  }
+  /* line 531, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-text {
+    width: 500px;
+  }
+  /* line 533, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-section {
+    overflow: visible;
+  }
+  /* line 535, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-section__img1 {
+    top: 800px;
+    left: -180px;
+  }
+  /* line 538, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section__title {
+    font-size: 40px;
+  }
+  /* line 540, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .content-item {
+    font-size: 20px;
+    left: 20px;
+  }
+  /* line 543, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  span {
+    font-size: 30px;
+  }
+  /* line 545, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-img {
+    width: 700px;
+    left: 15px;
+  }
+  /* line 548, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .four-section__title {
+    font-size: 40px;
+  }
+  /* line 550, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__second-box {
+    height: 940px;
+  }
+  /* line 552, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__first-box {
+    height: 940px;
+  }
+  /* line 554, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box3-title {
+    margin-top: 520px;
+  }
+  /* line 556, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box4-title {
+    margin-top: 0px;
+  }
+  /* line 558, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__img2 {
+    width: 300px;
+    top: 800px;
+  }
+  /* line 561, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-title {
+    font-size: 40px;
+  }
+  /* line 563, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll {
+    width: 300px;
+    height: 650px;
+  }
+  /* line 566, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-title2 {
+    font-size: 30px;
+    top: 110px;
+    left: 40px;
+  }
+  /* line 570, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-title {
+    font-size: 30px;
+    top: 110px;
+    left: 80px;
+  }
+  /* line 574, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-list {
+    top: 210px;
+    left: 60px;
+  }
+  /* line 577, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-wrapper__icons {
+    margin-left: 20px;
+  }
+  /* line 579, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-price {
+    font-size: 50px;
+    top: 500px;
+    left: 100px;
+  }
+  /* line 583, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .book-title-wrapper {
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+  }
+  /* line 587, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-background {
+    width: 700px;
+    left: 0px;
+  }
+  /* line 591, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border2 {
+    width: 700px;
+    height: 1100px;
+  }
+  /* line 594, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .ul-title {
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  /* line 597, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-item {
+    padding-bottom: 5px;
+    font-size: 25px;
+  }
+  /* line 600, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-item {
+    height: 550px;
+  }
+  /* line 602, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-title {
+    padding-right: 40px;
+  }
+  /* line 604, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about-footer {
+    margin-bottom: 50px;
+    margin-top: 550px;
+  }
+  /* line 607, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about {
+    min-height: 1300px;
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 611, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 613, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 50%;
+    background: black;
+    z-index: 20;
+    transition: 1s;
+  }
+  /* line 622, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .logo {
+    margin-left: 20px;
+  }
+  /* line 624, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    height: 18px;
+    z-index: 30;
+  }
+  /* line 631, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: cadetblue;
+    margin-bottom: 6px;
+    transition: 1s all;
+  }
+  /* line 638, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 641, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  /* line 643, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 645, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 647, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 649, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu_active {
+    right: 0;
+  }
+  /* line 651, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  /* line 658, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu__list-item {
+    color: azure;
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  /* line 662, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu__line {
+    display: none;
+  }
+  /* line 664, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .main-section {
+    min-height: 400px;
+  }
+  /* line 666, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .left-wrapper__title {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    font-size: 35px;
+  }
+  /* line 670, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__img {
+    width: 200px;
+    margin-top: 0px;
+    position: absolute;
+    left: -250px;
+  }
+  /* line 675, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__circle {
+    width: 200px;
+    height: 200px;
+    right: 46px;
+    top: 7px;
+  }
+  /* line 680, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .icons-img {
+    width: 30px;
+  }
+  /* line 682, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .icons-img2 {
+    width: 27px;
+    padding-left: 20px;
+  }
+  /* line 685, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .left-wrapper__icons {
+    margin-bottom: 130px;
+  }
+  /* line 687, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-text {
+    width: 400px;
+    font-size: 15px;
+  }
+  /* line 690, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border {
+    width: 450px;
+    height: 420px;
+    margin-top: 50px;
+  }
+  /* line 694, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-section {
+    min-height: 500px;
+  }
+  /* line 696, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-section__img1 {
+    width: 200px;
+    top: 380px;
+    left: 250px;
+  }
+  /* line 700, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-title {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  /* line 703, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section {
+    min-height: 700px;
+  }
+  /* line 705, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section__title {
+    margin-top: 200px;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  /* line 709, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-content {
+    width: 150px;
+    height: 100px;
+  }
+  /* line 712, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  span {
+    font-size: 20px;
+  }
+  /* line 714, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .content-item {
+    left: 10px;
+    top: 15px;
+    font-size: 13px;
+  }
+  /* line 718, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .ul-item {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 721, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-img {
+    width: 500px;
+    left: 20px;
+  }
+  /* line 724, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .four-section__title {
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* line 728, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .four-section {
+    min-height: 1000px;
+  }
+  /* line 730, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__title {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+  /* line 734, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__ul {
+    padding-left: 30px;
+  }
+  /* line 736, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__first-box {
+    height: 800px;
+    width: 250px;
+  }
+  /* line 739, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__second-box {
+    width: 250px;
+    height: 800px;
+  }
+  /* line 742, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-box-title {
+    font-size: 20px;
+    margin-top: 370px;
+  }
+  /* line 745, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-box__ul {
+    padding-left: 30px;
+  }
+  /* line 747, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .ul-item1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  /* line 750, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box2-title {
+    font-size: 20px;
+  }
+  /* line 752, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box2-ul {
+    padding-left: 30px;
+  }
+  /* line 754, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-box__title {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 758, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box3-title {
+    margin-top: 470px;
+    font-size: 20px;
+  }
+  /* line 761, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box2-text {
+    font-size: 15px;
+    padding-left: 25px;
+    line-height: initial;
+  }
+  /* line 765, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box4-title {
+    font-size: 20px;
+  }
+  /* line 767, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .box3-title-span {
+    font-size: 15px;
+  }
+  /* line 769, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__img2 {
+    top: 650px;
+    z-index: 5;
+  }
+  /* line 772, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  /* line 775, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-box__img {
+    width: 150px;
+  }
+  /* line 777, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education {
+    min-height: 550px;
+  }
+  /* line 779, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll {
+    width: 250px;
+    height: 600px;
+  }
+  /* line 782, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-title {
+    font-size: 20px;
+    top: 90px;
+  }
+  /* line 785, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-list__item {
+    font-size: 13px;
+  }
+  /* line 787, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-list {
+    top: 160px;
+    left: 60px;
+  }
+  /* line 790, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-price {
+    font-size: 50px;
+    top: 450px;
+    left: 75px;
+  }
+  /* line 794, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .scroll-title2 {
+    font-size: 20px;
+    top: 90px;
+    left: 50px;
+  }
+  /* line 798, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-buy {
+    font-size: 18px;
+    padding-top: 0;
+  }
+  /* line 801, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs {
+    min-height: 800px;
+  }
+  /* line 803, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-background {
+    width: 550px;
+    height: 700px;
+    top: 50px;
+    left: -20px;
+  }
+  /* line 808, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .book-title-wrapper {
+    width: 550px;
+  }
+  /* line 810, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-plan {
+    top: 130px;
+    left: 60px;
+  }
+  /* line 813, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-item {
+    font-size: 18px;
+  }
+  /* line 815, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border2 {
+    width: 500px;
+    height: 520px;
+    margin-top: 50px;
+  }
+  /* line 819, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .mona-lisa {
+    width: 200px;
+    right: -135px;
+    top: 280px;
+  }
+  /* line 823, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about__feedback-title {
+    font-size: 30px;
+  }
+  /* line 825, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-item {
+    width: 150px;
+    height: 350px;
+  }
+  /* line 828, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img2 {
+    width: 50px;
+  }
+  /* line 830, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-title {
+    padding-right: 30px;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  /* line 834, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-text {
+    font-size: 13px;
+    line-height: 15px;
+    padding-right: 0;
+    padding-left: 10px;
+  }
+  /* line 839, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img1 {
+    width: 47px;
+  }
+  /* line 841, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img3 {
+    width: 45px;
+  }
+  /* line 843, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hands {
+    top: 450px;
+  }
+  /* line 845, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about-footer {
+    margin-bottom: 10px;
+    margin-top: 420px;
+    font-size: 10px;
+  }
+  /* line 849, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about {
+    min-height: 900px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 853, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 856, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .logo {
+    width: 80px;
+  }
+  /* line 858, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border {
+    width: 250px;
+  }
+  /* line 860, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .nav-menu__line {
+    top: 36px;
+    width: 75%;
+  }
+  /* line 863, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .main-section {
+    min-height: 100vh;
+  }
+  /* line 865, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .left-wrapper__title {
+    margin-top: 380px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  /* line 870, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__circle {
+    right: 8px;
+    width: 300px;
+    height: 300px;
+  }
+  /* line 874, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .right-wrapper__img {
+    left: -310px;
+    width: 300px;
+  }
+  /* line 877, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-title {
+    font-size: 20px;
+  }
+  /* line 879, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border-text {
+    width: 270px;
+  }
+  /* line 881, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border {
+    width: 300px;
+    height: 580px;
+    margin-top: 30px;
+  }
+  /* line 885, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section__title {
+    font-size: 20px;
+  }
+  /* line 887, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-section__img1 {
+    width: 100px;
+    top: 560px;
+    left: -20px;
+  }
+  /* line 891, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  span {
+    font-size: 15px;
+  }
+  /* line 893, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .content-item {
+    left: 8p;
+    top: 20px;
+    font-size: 10px;
+  }
+  /* line 897, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-img {
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    position: static;
+  }
+  /* line 902, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__first-box {
+    height: 730px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  /* line 907, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper {
+    flex-direction: column;
+  }
+  /* line 909, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .second-box__img {
+    right: -20px;
+    top: -70px;
+    width: 100px;
+  }
+  /* line 913, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-wrapper__second-box {
+    margin: 0 auto;
+    width: 300px;
+  }
+  /* line 916, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section {
+    min-height: 500px;
+  }
+  /* line 918, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .wrapper-content {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 40px;
+  }
+  /* line 922, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .third-section__title {
+    margin-top: 100px;
+  }
+  /* line 924, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .four-section__title {
+    font-size: 20px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+  }
+  /* line 928, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 932, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-title {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  /* line 935, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-background {
+    width: 300px;
+    height: 420px;
+    display: block;
+    position: static;
+    margin: 0 auto;
+  }
+  /* line 941, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .first-box__img2 {
+    width: 120px;
+    top: -20px;
+    left: -50px;
+  }
+  /* line 945, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs__right {
+    margin: 0 auto;
+  }
+  /* line 947, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs__left {
+    margin: 0 auto;
+  }
+  /* line 949, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-wrapper__icons {
+    margin-left: 0px;
+    padding-bottom: 30px;
+  }
+  /* line 952, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .tarifs-buy {
+    padding-left: 30px;
+    font-size: 15px;
+  }
+  /* line 955, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-title {
+    font-size: 18px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+  }
+  /* line 959, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-item {
+    font-size: 12px;
+  }
+  /* line 961, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education-plan {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+  }
+  /* line 966, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .ul-title {
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+  }
+  /* line 971, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .book-title-wrapper {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+  }
+  /* line 975, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .education {
+    min-height: 450px;
+  }
+  /* line 977, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .border2 {
+    width: 300px;
+    height: 750px;
+  }
+  /* line 980, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .mona-lisa {
+    display: none;
+  }
+  /* line 982, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-container {
+    flex-direction: column;
+  }
+  /* line 984, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-item {
+    margin: 0 auto;
+  }
+  /* line 986, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-item {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+  /* line 990, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about__feedback-title {
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  /* line 993, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img2 {
+    width: 70px;
+    padding-bottom: 20px;
+  }
+  /* line 996, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img1 {
+    width: 67px;
+    padding-bottom: 20px;
+  }
+  /* line 999, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .feedback-img3 {
+    width: 65px;
+    padding-bottom: 20px;
+  }
+  /* line 1002, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .hands {
+    top: 850px;
+  }
+  /* line 1004, ../../../../../Users/taniaptashkina/Desktop/Crypto copy/sass/style.sass */
+  .about-footer {
+    margin-top: 260px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
